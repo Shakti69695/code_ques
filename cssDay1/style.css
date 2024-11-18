@@ -1,0 +1,42 @@
+.box1 {
+  height: 100px;
+  /* margin - distance between the element and the container */
+  margin: 5px;
+  /* padding - distance between the content of the element and the border of that element itself */
+  padding: 25px;
+  width: 100px;
+  background-color: aqua;
+
+}
+
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(144, 178, 34);
+  z-index: 1;
+  position: absolute;
+  left: 200px;
+}
+
+.box4 {
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+
+}
+
+.box13 {
+
+  height: 100px;
+
+  width: 100px;
+  background-color: firebrick;
+}
+
+.box14 {
+  top: 10px;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+}

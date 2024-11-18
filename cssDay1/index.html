@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--  extenal CSS- When CSS properties are added from seperate CSS file. This file is connected to html document through link tag  -->
+    <style>
+      /* internal CSS - When the CSS properties are applied from html file and under style tag*/
+      .container {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        background-color: palevioletred;
+        display: flex;
+
+        margin: 0px;
+        padding: 0px;
+        /* flex column aligns all the elements of the container vertically */
+        flex-direction: column;
+      }
+      .container1 {
+        height: 200px;
+        width: 600px;
+        background-color: beige;
+        display: flex;
+        position: relative;
+        /* flex row aligns all the elements of the container horizontally */
+        flex-direction: row;
+        /* justify-content: It aligns the content of container along the horizontal axis according to the applied property */
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">Item 1</div>
+      <!-- inline CSS- When the CSS properties are applied to specific element -->
+      <div
+        class="box box2"
+        style="height: 100px; background-color: red; width: 100px"
+      >
+        Item 2
+      </div>
+      <div class="box box3">Z index </div>
+      <div class="box box4">Item 4</div>
+    </div>
+    <div class="container1">
+      <div class="box box13">Item 13 </div>
+      <!-- inline CSS- When the CSS properties are applied to specific element -->
+      <div
+        class="box box2"
+        style="height: 100px; background-color: red; width: 100px"
+      >
+        Item 
+      </div>
+      <div class="box box13">Item 13 </div>
+      <div class="box box14">Item 14</div>
+    </div>
+  </body>
+</html>
